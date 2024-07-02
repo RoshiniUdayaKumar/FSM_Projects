@@ -9,8 +9,9 @@ FSM projects:
 1. Sequence Detector using Moore Non-Overlapping method. 
 2. Sequence Detector using Moore Overlapping method.
 3. Sequence Detector using Melay Overlapping method.
-4. FSM of a traffic light controller.
-5. FSM of a vending machine. 
+4. FSM Secure Car Key
+5. FSM of a traffic light controller.
+6. FSM of a vending machine. 
 
 
     
