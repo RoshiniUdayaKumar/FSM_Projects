@@ -21,30 +21,38 @@ case(state)
 
 S0: 
 begin 
-out=1'b0;
-if(in) 
+if(in)  begin
 next_state=S1;
-else  
+out=1'b0;
+end
+else begin  
 next_state=S0;
+out=1'b0;
+end
 end
 
 S1: 
 begin 
-out=1'b0;
-if(in) 
+if(in) begin
 next_state=S1;
-else  
+out=1'b0;
+end
+else begin  
 out=1'b0;
 next_state=S2;
+end
 end
 
 S2: 
 begin 
+if(in) begin
 out=1'b0;
-if(in) 
 next_state=S1;
-else  
+end
+else begin
+out=1'b0;  
 next_state=S3;
+end
 end
 
 S3: 
