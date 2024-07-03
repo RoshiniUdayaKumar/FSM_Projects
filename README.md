@@ -10,8 +10,9 @@ FSM projects:
 2. Sequence Detector using Moore Overlapping method.
 3. Sequence Detector using Melay Overlapping method.
 4. FSM Secure Car Key
-5. FSM of a traffic light controller.
-6. FSM of a vending machine. 
+5. High-Level State Machine (HLMS) of a soda dispensor 
+6. FSM of a traffic light controller.
+   
 
 
     
